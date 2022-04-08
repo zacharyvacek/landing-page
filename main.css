@@ -1,0 +1,33 @@
+/* UNIVERSAL STYLE */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f9faf8;
+}
