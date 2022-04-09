@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* HEADER */
 
 header {
@@ -42,7 +46,7 @@ header a {
 .about {
     display: flex;
     width: 75%;
-    margin: 50px auto;
+    margin: 0 auto 50px;
     padding: 50px 25px;
     justify-content: space-between;
     align-items: center;
@@ -51,4 +55,21 @@ header a {
 .about-blurb,
 .about-img {
     padding: 25px 50px;
+}
+
+.about-blurb h1 {
+    font-size: 3em;
+}
+
+.about-blurb p {
+    margin: 15px auto;
+}
+
+.about-blurb button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
 }
