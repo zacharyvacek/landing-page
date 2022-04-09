@@ -31,3 +31,24 @@ header a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+/* HERO */
+
+.hero {
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.about {
+    display: flex;
+    width: 75%;
+    margin: 50px auto;
+    padding: 50px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-blurb,
+.about-img {
+    padding: 25px 50px;
+}
