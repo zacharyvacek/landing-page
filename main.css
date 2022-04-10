@@ -112,3 +112,28 @@ header a {
     text-align: center;
     margin: 10px auto;
 }
+
+/* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-div {
+    margin: 15px auto;
+    padding: 100px;
+    width: 50%;
+}
+
+.quote-div blockquote {
+    font-style: italic;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.quote-div p {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+}
